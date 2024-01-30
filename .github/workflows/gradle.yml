@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     if: |
       (github.event.action == 'opened' || github.event.action == 'reopened' || github.event.action == 'synchronize') &&
-      contains(github.event.pull_request.labels.*.name, 'CI') $$
+      contains(github.event.pull_request.labels.*.name, 'CI') &&
       github.event.pull_request.base.ref == 'main'
 
     services:
