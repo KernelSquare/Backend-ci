@@ -90,12 +90,6 @@ class QuestionServiceTest {
     }
 
     @Test
-    @DisplayName("확인용")
-    void testCheck() {
-        assertThat(1L).isEqualTo(2L);
-    }
-
-    @Test
     @DisplayName("질문 생성 테스트")
     void testCreateQuestion() {
         //given
