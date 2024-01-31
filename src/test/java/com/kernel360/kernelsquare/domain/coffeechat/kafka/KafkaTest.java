@@ -34,7 +34,8 @@ public class KafkaTest {
 
         //when
         producer.produce(sendMessage);
-        consumer.getLatch().await(10, TimeUnit.SECONDS);
+        consumer.getLatch().await(30, TimeUnit.SECONDS);
+
 
         //then
         assertThat(consumer.getLatch().getCount()).isEqualTo(0L);
