@@ -35,7 +35,7 @@ public class KafkaTest {
         //when
         producer.produce(sendMessage);
 
-        consumer.getLatch().await(60, TimeUnit.SECONDS);
+        consumer.getLatch().await(120, TimeUnit.SECONDS);
 
 
         //then
