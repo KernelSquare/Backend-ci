@@ -1,0 +1,359 @@
+2024-02-02 16:23:59: [background-preinit] INFO  org.hibernate.validator.internal.util.Version [org.hibernate.validator.internal.util.Version.<clinit>:21] - HV000001: Hibernate Validator 8.0.1.Final
+2024-02-02 16:23:59: [restartedMain] INFO  com.kernelsquare.memberapi.MemberApiApplication [org.springframework.boot.StartupInfoLogger.logStarting:50] - Starting MemberApiApplication using Java 21.0.1 with PID 87826 (/home/wonsang/kernel360/f1-KernelSquare-backend/member-api/build/classes/java/main started by wonsang in /home/wonsang/kernel360/f1-KernelSquare-backend)
+2024-02-02 16:23:59: [restartedMain] INFO  com.kernelsquare.memberapi.MemberApiApplication [org.springframework.boot.SpringApplication.logStartupProfileInfo:653] - No active profile set, falling back to 1 default profile: "default"
+2024-02-02 16:23:59: [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [org.springframework.boot.logging.DeferredLog.logTo:252] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-02 16:23:59: [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [org.springframework.boot.logging.DeferredLog.logTo:252] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-02 16:23:59: [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:292] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-02 16:23:59: [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:139] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02 16:23:59: [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208] - Finished Spring Data repository scanning in 71 ms. Found 13 JPA repository interfaces.
+2024-02-02 16:23:59: [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:292] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-02 16:23:59: [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:139] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-02-02 16:23:59: [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208] - Finished Spring Data repository scanning in 2 ms. Found 1 MongoDB repository interface.
+2024-02-02 16:24:00: [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:292] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-02 16:24:00: [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:139] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-02 16:24:00: [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208] - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-02-02 16:24:00: [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108] - Tomcat initialized with port 8501 (http)
+2024-02-02 16:24:00: [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol [org.apache.juli.logging.DirectJDKLog.log:173] - Initializing ProtocolHandler ["http-nio-8501"]
+2024-02-02 16:24:00: [restartedMain] INFO  org.apache.catalina.core.StandardService [org.apache.juli.logging.DirectJDKLog.log:173] - Starting service [Tomcat]
+2024-02-02 16:24:00: [restartedMain] INFO  org.apache.catalina.core.StandardEngine [org.apache.juli.logging.DirectJDKLog.log:173] - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-02-02 16:24:00: [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [org.apache.juli.logging.DirectJDKLog.log:173] - Initializing Spring embedded WebApplicationContext
+2024-02-02 16:24:00: [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:296] - Root WebApplicationContext: initialization completed in 1332 ms
+2024-02-02 16:24:00: [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper [org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02 16:24:00: [restartedMain] INFO  org.hibernate.Version [org.hibernate.Version.logVersion:44] - HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-02-02 16:24:00: [restartedMain] INFO  org.hibernate.cache.internal.RegionFactoryInitiator [org.hibernate.cache.internal.RegionFactoryInitiator.initiateService:50] - HHH000026: Second-level cache disabled
+2024-02-02 16:24:01: [restartedMain] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-02 16:24:01: [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource [com.zaxxer.hikari.HikariDataSource.getConnection:110] - HikariPool-1 - Starting...
+2024-02-02 16:24:01: [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool [com.zaxxer.hikari.pool.HikariPool.checkFailFast:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1955411
+2024-02-02 16:24:01: [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource [com.zaxxer.hikari.HikariDataSource.getConnection:123] - HikariPool-1 - Start completed.
+2024-02-02 16:24:01: [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:58] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-02 16:24:01: [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02 16:24:02: [restartedMain] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory [org.springframework.data.jpa.repository.query.QueryEnhancerFactory.<clinit>:49] - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-02 16:24:02: [restartedMain] INFO  org.mongodb.driver.client [com.mongodb.internal.diagnostics.logging.SLF4JLogger.info:71] - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "6.5.0-15-generic"}, "platform": "Java/Oracle Corporation/21.0.1+12-29"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@12269615], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@51bd236d, com.mongodb.Jep395RecordCodecProvider@68781aa0, com.mongodb.KotlinCodecProvider@4392c11e]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@6ed52b03], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2024-02-02 16:24:02: [cluster-ClusterId{value='65bc98928a8b726f2a9d765d', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster [com.mongodb.internal.diagnostics.logging.SLF4JLogger.info:71] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9494897}
+2024-02-02 16:24:02: [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59] - LiveReload server is running on port 35729
+2024-02-02 16:24:03: [restartedMain] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:58] - Exposing 4 endpoint(s) beneath base path '/actuator'
+2024-02-02 16:24:03: [restartedMain] INFO  org.springframework.security.web.DefaultSecurityFilterChain [org.springframework.security.web.DefaultSecurityFilterChain.<init>:54] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@485ea16, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71450f11, org.springframework.security.web.context.SecurityContextHolderFilter@eac921, org.springframework.security.web.header.HeaderWriterFilter@7d0b36ef, org.springframework.web.filter.CorsFilter@74771ba1, org.springframework.security.web.authentication.logout.LogoutFilter@210614b6, com.kernelsquare.memberapi.common.filter.JWTSettingFilter@29f6af80, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@671fa4a3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59e5cde1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20835f2, org.springframework.security.web.session.SessionManagementFilter@aecb068, org.springframework.security.web.access.ExceptionTranslationFilter@757826ee, org.springframework.security.web.access.intercept.AuthorizationFilter@1c3d62a]
+2024-02-02 16:24:04: [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol [org.apache.juli.logging.DirectJDKLog.log:173] - Starting ProtocolHandler ["http-nio-8501"]
+2024-02-02 16:24:04: [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:221] - Tomcat started on port 8501 (http) with context path ''
+2024-02-02 16:24:04: [restartedMain] INFO  org.apache.kafka.clients.consumer.ConsumerConfig [org.apache.kafka.common.config.AbstractConfig.logAll:370] - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-coffeechat-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = coffeechat
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2024-02-02 16:24:04: [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>:119] - Kafka version: 3.6.0
+2024-02-02 16:24:04: [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>:120] - Kafka commitId: 60e845626d8a465a
+2024-02-02 16:24:04: [restartedMain] INFO  org.apache.kafka.common.utils.AppInfoParser [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>:121] - Kafka startTimeMs: 1706858644480
+2024-02-02 16:24:04: [restartedMain] INFO  org.springframework.kafka.core.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer [org.apache.kafka.clients.consumer.KafkaConsumer.subscribe:976] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Subscribed to pattern: 'chat_.*'
+2024-02-02 16:24:04: [restartedMain] INFO  org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [org.springframework.core.log.CompositeLog.info:117] - Starting...
+2024-02-02 16:24:04: [restartedMain] INFO  org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [org.springframework.core.log.CompositeLog.info:117] - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@45ad6239]]
+2024-02-02 16:24:04: [restartedMain] INFO  org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [org.springframework.core.log.CompositeLog.info:117] - Started.
+2024-02-02 16:24:04: [restartedMain] INFO  com.kernelsquare.memberapi.MemberApiApplication [org.springframework.boot.StartupInfoLogger.logStarted:56] - Started MemberApiApplication in 5.38 seconds (process running for 5.725)
+2024-02-02 16:24:04: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata [org.apache.kafka.clients.Metadata.update:287] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Cluster ID: 8Ij0FtfXSFyGJ9XvRZY2ZQ
+2024-02-02 16:24:04: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler.onSuccess:906] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2024-02-02 16:24:04: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest:576] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] (Re-)joining group
+2024-02-02 16:24:04: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin:1072] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Request joining group due to: need to re-join with the given member-id: consumer-coffeechat-1-b0e93ae9-40b4-47ce-bd44-e142fc33b780
+2024-02-02 16:24:04: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin:1072] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2024-02-02 16:24:04: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest:576] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] (Re-)joining group
+2024-02-02 16:24:04: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator$JoinGroupResponseHandler.handle:637] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Successfully joined group with generation Generation{generationId=31, memberId='consumer-coffeechat-1-b0e93ae9-40b4-47ce-bd44-e142fc33b780', protocol='range'}
+2024-02-02 16:24:04: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onLeaderElected:717] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Finished assignment for group at generation 31: {consumer-coffeechat-1-b0e93ae9-40b4-47ce-bd44-e142fc33b780=Assignment(partitions=[chat_key-0])}
+2024-02-02 16:24:04: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator$SyncGroupResponseHandler.handle:812] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Successfully synced group in generation Generation{generationId=31, memberId='consumer-coffeechat-1-b0e93ae9-40b4-47ce-bd44-e142fc33b780', protocol='range'}
+2024-02-02 16:24:04: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokeOnAssignment:312] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Notifying assignor about the new Assignment(partitions=[chat_key-0])
+2024-02-02 16:24:04: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned:324] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Adding newly assigned partitions: chat_key-0
+2024-02-02 16:24:04: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.refreshCommittedOffsetsIfNeeded:980] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Setting offset for partition chat_key-0 to the committed offset FetchPosition{offset=1, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null)], epoch=0}}
+2024-02-02 16:24:04: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.springframework.kafka.listener.KafkaMessageListenerContainer [org.springframework.core.log.LogAccessor.info:292] - coffeechat: partitions assigned: [chat_key-0]
+2024-02-02 16:24:05: [RMI TCP Connection(1)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [org.apache.juli.logging.DirectJDKLog.log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-02 16:24:05: [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet [org.springframework.web.servlet.FrameworkServlet.initServletBean:532] - Initializing Servlet 'dispatcherServlet'
+2024-02-02 16:24:05: [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet [org.springframework.web.servlet.FrameworkServlet.initServletBean:554] - Completed initialization in 1 ms
+2024-02-02 16:25:04: [MessageBroker-1] INFO  org.springframework.web.socket.config.WebSocketMessageBrokerStats [org.springframework.web.socket.config.WebSocketMessageBrokerStats.lambda$initLoggingTask$0:154] - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-02-02 16:33:04: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.NetworkClient [org.apache.kafka.clients.NetworkClient.handleDisconnections:977] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Node -1 disconnected.
+2024-02-02 16:55:04: [MessageBroker-1] org.springframework.web.socket.config.WebSocketMessageBrokerStats [org.springframework.web.socket.config.WebSocketMessageBrokerStats.lambda$initLoggingTask$0:154] - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+2024-02-02 16:55:31: [http-nio-8501-exec-1] com.kernelsquare.core.aop.Logging [com.kernelsquare.core.aop.Logging.log:50] - [6097d8c5-5c46-48dc-96c5-74dd0a8b2007] methodName : [AuthController.login(..)] time = [425ms]
+2024-02-02 17:14:15: [SpringApplicationShutdownHook] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [org.springframework.core.log.CompositeLog.info:117] - Stopping...
+2024-02-02 17:14:15: [SpringApplicationShutdownHook] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [org.springframework.core.log.CompositeLog.info:117] - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@45ad6239]]
+2024-02-02 17:14:15: [SpringApplicationShutdownHook] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [org.springframework.core.log.CompositeLog.info:117] - Stopped.
+2024-02-02 17:14:15: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsRevoked:343] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Revoke previously assigned partitions chat_key-0
+2024-02-02 17:14:15: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.springframework.kafka.listener.KafkaMessageListenerContainer [org.springframework.core.log.LogAccessor.info:292] - coffeechat: partitions revoked: [chat_key-0]
+2024-02-02 17:14:15: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.maybeLeaveGroup:1133] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Member consumer-coffeechat-1-b0e93ae9-40b4-47ce-bd44-e142fc33b780 sending LeaveGroup request to coordinator localhost:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+2024-02-02 17:14:15: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration:1025] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-02-02 17:14:15: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin:1072] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Request joining group due to: consumer pro-actively leaving the group
+2024-02-02 17:14:15: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.springframework.kafka.core.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer [org.apache.kafka.clients.consumer.KafkaConsumer.unsubscribe:1021] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Unsubscribed all topics or patterns and assigned partitions
+2024-02-02 17:14:15: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration:1025] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-02-02 17:14:15: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin:1072] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Request joining group due to: consumer pro-actively leaving the group
+2024-02-02 17:14:15: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics [org.apache.kafka.common.metrics.Metrics.close:693] - Metrics scheduler closed
+2024-02-02 17:14:15: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics [org.apache.kafka.common.metrics.Metrics.close:697] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-02-02 17:14:15: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics [org.apache.kafka.common.metrics.Metrics.close:703] - Metrics reporters closed
+2024-02-02 17:14:15: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.utils.AppInfoParser [org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo:83] - App info kafka.consumer for consumer-coffeechat-1 unregistered
+2024-02-02 17:14:15: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.springframework.kafka.listener.KafkaMessageListenerContainer [org.springframework.core.log.LogAccessor.info:292] - coffeechat: Consumer stopped
+2024-02-02 17:14:16: [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02 17:14:16: [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [com.zaxxer.hikari.HikariDataSource.close:350] - HikariPool-1 - Shutdown initiated...
+2024-02-02 17:14:16: [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [com.zaxxer.hikari.HikariDataSource.close:352] - HikariPool-1 - Shutdown completed.
+2024-02-02 17:14:17: [background-preinit] org.hibernate.validator.internal.util.Version [org.hibernate.validator.internal.util.Version.<clinit>:21] - HV000001: Hibernate Validator 8.0.1.Final
+2024-02-02 17:14:17: [restartedMain] com.kernelsquare.memberapi.MemberApiApplication [org.springframework.boot.StartupInfoLogger.logStarting:50] - Starting MemberApiApplication using Java 21.0.1 with PID 105444 (/home/wonsang/kernel360/f1-KernelSquare-backend/member-api/build/classes/java/main started by wonsang in /home/wonsang/kernel360/f1-KernelSquare-backend)
+2024-02-02 17:14:17: [restartedMain] com.kernelsquare.memberapi.MemberApiApplication [org.springframework.boot.SpringApplication.logStartupProfileInfo:653] - No active profile set, falling back to 1 default profile: "default"
+2024-02-02 17:14:17: [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [org.springframework.boot.logging.DeferredLog.logTo:252] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-02 17:14:17: [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [org.springframework.boot.logging.DeferredLog.logTo:252] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-02 17:14:17: [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:292] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-02 17:14:17: [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:139] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-02 17:14:18: [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208] - Finished Spring Data repository scanning in 73 ms. Found 13 JPA repository interfaces.
+2024-02-02 17:14:18: [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:292] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-02 17:14:18: [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:139] - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2024-02-02 17:14:18: [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208] - Finished Spring Data repository scanning in 2 ms. Found 1 MongoDB repository interface.
+2024-02-02 17:14:18: [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:292] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-02 17:14:18: [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:139] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-02 17:14:18: [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate [org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:208] - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-02-02 17:14:18: [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108] - Tomcat initialized with port 8501 (http)
+2024-02-02 17:14:18: [restartedMain] org.apache.coyote.http11.Http11NioProtocol [org.apache.juli.logging.DirectJDKLog.log:173] - Initializing ProtocolHandler ["http-nio-8501"]
+2024-02-02 17:14:18: [restartedMain] org.apache.catalina.core.StandardService [org.apache.juli.logging.DirectJDKLog.log:173] - Starting service [Tomcat]
+2024-02-02 17:14:18: [restartedMain] org.apache.catalina.core.StandardEngine [org.apache.juli.logging.DirectJDKLog.log:173] - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2024-02-02 17:14:18: [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [org.apache.juli.logging.DirectJDKLog.log:173] - Initializing Spring embedded WebApplicationContext
+2024-02-02 17:14:18: [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:296] - Root WebApplicationContext: initialization completed in 1235 ms
+2024-02-02 17:14:19: [restartedMain] org.hibernate.jpa.internal.util.LogHelper [org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-02 17:14:19: [restartedMain] org.hibernate.Version [org.hibernate.Version.logVersion:44] - HHH000412: Hibernate ORM core version 6.3.1.Final
+2024-02-02 17:14:19: [restartedMain] org.hibernate.cache.internal.RegionFactoryInitiator [org.hibernate.cache.internal.RegionFactoryInitiator.initiateService:50] - HHH000026: Second-level cache disabled
+2024-02-02 17:14:19: [restartedMain] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo.addTransformer:87] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-02 17:14:19: [restartedMain] com.zaxxer.hikari.HikariDataSource [com.zaxxer.hikari.HikariDataSource.getConnection:110] - HikariPool-1 - Starting...
+2024-02-02 17:14:19: [restartedMain] com.zaxxer.hikari.pool.HikariPool [com.zaxxer.hikari.pool.HikariPool.checkFailFast:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2bfbd133
+2024-02-02 17:14:19: [restartedMain] com.zaxxer.hikari.HikariDataSource [com.zaxxer.hikari.HikariDataSource.getConnection:123] - HikariPool-1 - Start completed.
+2024-02-02 17:14:20: [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService:58] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-02 17:14:20: [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02 17:14:20: [restartedMain] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [org.springframework.data.jpa.repository.query.QueryEnhancerFactory.<clinit>:49] - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-02-02 17:14:21: [restartedMain] org.mongodb.driver.client [com.mongodb.internal.diagnostics.logging.SLF4JLogger.info:71] - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Linux", "name": "Linux", "architecture": "amd64", "version": "6.5.0-15-generic"}, "platform": "Java/Oracle Corporation/21.0.1+12-29"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsCommandListener@31a3f87], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@5f68825c, com.mongodb.Jep395RecordCodecProvider@7c4b6b93, com.mongodb.KotlinCodecProvider@332006dc]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[io.micrometer.core.instrument.binder.mongodb.MongoMetricsConnectionPoolListener@3d253b2c], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2024-02-02 17:14:21: [cluster-ClusterId{value='65bca45c24e2fd6813d1521e', description='null'}-localhost:27017] org.mongodb.driver.cluster [com.mongodb.internal.diagnostics.logging.SLF4JLogger.info:71] - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=21, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9350070}
+2024-02-02 17:14:21: [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:59] - LiveReload server is running on port 35729
+2024-02-02 17:14:22: [restartedMain] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:58] - Exposing 4 endpoint(s) beneath base path '/actuator'
+2024-02-02 17:14:22: [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain [org.springframework.security.web.DefaultSecurityFilterChain.<init>:54] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3306ba29, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2db569c9, org.springframework.security.web.context.SecurityContextHolderFilter@1165db69, org.springframework.security.web.header.HeaderWriterFilter@e3ee218, org.springframework.web.filter.CorsFilter@19c82740, org.springframework.security.web.authentication.logout.LogoutFilter@6fbda13, com.kernelsquare.memberapi.common.filter.JWTSettingFilter@37dde746, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5bb2e558, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55cb51ea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@318cd466, org.springframework.security.web.session.SessionManagementFilter@4b78c420, org.springframework.security.web.access.ExceptionTranslationFilter@356a349c, org.springframework.security.web.access.intercept.AuthorizationFilter@2ba67909]
+2024-02-02 17:14:22: [restartedMain] org.apache.coyote.http11.Http11NioProtocol [org.apache.juli.logging.DirectJDKLog.log:173] - Starting ProtocolHandler ["http-nio-8501"]
+2024-02-02 17:14:22: [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:221] - Tomcat started on port 8501 (http) with context path ''
+2024-02-02 17:14:22: [restartedMain] org.apache.kafka.clients.consumer.ConsumerConfig [org.apache.kafka.common.config.AbstractConfig.logAll:370] - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-coffeechat-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = coffeechat
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2024-02-02 17:14:22: [restartedMain] org.apache.kafka.common.utils.AppInfoParser [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>:119] - Kafka version: 3.6.0
+2024-02-02 17:14:22: [restartedMain] org.apache.kafka.common.utils.AppInfoParser [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>:120] - Kafka commitId: 60e845626d8a465a
+2024-02-02 17:14:22: [restartedMain] org.apache.kafka.common.utils.AppInfoParser [org.apache.kafka.common.utils.AppInfoParser$AppInfo.<init>:121] - Kafka startTimeMs: 1706861662739
+2024-02-02 17:14:22: [restartedMain] org.springframework.kafka.core.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer [org.apache.kafka.clients.consumer.KafkaConsumer.subscribe:976] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Subscribed to pattern: 'chat_.*'
+2024-02-02 17:14:22: [restartedMain] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [org.springframework.core.log.CompositeLog.info:117] - Starting...
+2024-02-02 17:14:22: [restartedMain] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [org.springframework.core.log.CompositeLog.info:117] - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@44241666]]
+2024-02-02 17:14:22: [restartedMain] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [org.springframework.core.log.CompositeLog.info:117] - Started.
+2024-02-02 17:14:22: [restartedMain] com.kernelsquare.memberapi.MemberApiApplication [org.springframework.boot.StartupInfoLogger.logStarted:56] - Started MemberApiApplication in 5.333 seconds (process running for 5.685)
+2024-02-02 17:14:22: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.Metadata [org.apache.kafka.clients.Metadata.update:287] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Cluster ID: 8Ij0FtfXSFyGJ9XvRZY2ZQ
+2024-02-02 17:14:22: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator$FindCoordinatorResponseHandler.onSuccess:906] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Discovered group coordinator localhost:9092 (id: 2147483646 rack: null)
+2024-02-02 17:14:22: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest:576] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] (Re-)joining group
+2024-02-02 17:14:22: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin:1072] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Request joining group due to: need to re-join with the given member-id: consumer-coffeechat-1-78a740c8-1b42-4f2a-ac49-03e0e460331c
+2024-02-02 17:14:22: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin:1072] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2024-02-02 17:14:22: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.sendJoinGroupRequest:576] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] (Re-)joining group
+2024-02-02 17:14:22: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator$JoinGroupResponseHandler.handle:637] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Successfully joined group with generation Generation{generationId=33, memberId='consumer-coffeechat-1-78a740c8-1b42-4f2a-ac49-03e0e460331c', protocol='range'}
+2024-02-02 17:14:22: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onLeaderElected:717] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Finished assignment for group at generation 33: {consumer-coffeechat-1-78a740c8-1b42-4f2a-ac49-03e0e460331c=Assignment(partitions=[chat_key-0])}
+2024-02-02 17:14:22: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator$SyncGroupResponseHandler.handle:812] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Successfully synced group in generation Generation{generationId=33, memberId='consumer-coffeechat-1-78a740c8-1b42-4f2a-ac49-03e0e460331c', protocol='range'}
+2024-02-02 17:14:22: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokeOnAssignment:312] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Notifying assignor about the new Assignment(partitions=[chat_key-0])
+2024-02-02 17:14:22: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned:324] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Adding newly assigned partitions: chat_key-0
+2024-02-02 17:14:22: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.refreshCommittedOffsetsIfNeeded:980] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Setting offset for partition chat_key-0 to the committed offset FetchPosition{offset=1, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[localhost:9092 (id: 1 rack: null)], epoch=0}}
+2024-02-02 17:14:22: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.springframework.kafka.listener.KafkaMessageListenerContainer [org.springframework.core.log.LogAccessor.info:292] - coffeechat: partitions assigned: [chat_key-0]
+2024-02-02 17:14:23: [RMI TCP Connection(3)-127.0.0.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [org.apache.juli.logging.DirectJDKLog.log:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-02 17:14:23: [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet [org.springframework.web.servlet.FrameworkServlet.initServletBean:532] - Initializing Servlet 'dispatcherServlet'
+2024-02-02 17:14:23: [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet [org.springframework.web.servlet.FrameworkServlet.initServletBean:554] - Completed initialization in 1 ms
+2024-02-02 17:14:34: [http-nio-8501-exec-1] com.kernelsquare.core.aop.Logging [com.kernelsquare.core.aop.Logging.log:50] - [7e22be2d-892a-4264-9e53-ef8dffcf6b62] methodName : [AuthController.login(..)] time = [452ms]
+2024-02-02 17:15:22: [MessageBroker-1] org.springframework.web.socket.config.WebSocketMessageBrokerStats [org.springframework.web.socket.config.WebSocketMessageBrokerStats.lambda$initLoggingTask$0:154] - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-02-02 17:23:23: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.NetworkClient [org.apache.kafka.clients.NetworkClient.handleDisconnections:977] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Node -1 disconnected.
+2024-02-02 17:45:22: [MessageBroker-1] org.springframework.web.socket.config.WebSocketMessageBrokerStats [org.springframework.web.socket.config.WebSocketMessageBrokerStats.lambda$initLoggingTask$0:154] - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 1]
+2024-02-02 18:15:22: [MessageBroker-2] org.springframework.web.socket.config.WebSocketMessageBrokerStats [org.springframework.web.socket.config.WebSocketMessageBrokerStats.lambda$initLoggingTask$0:154] - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 3, active threads = 1, queued tasks = 0, completed tasks = 2]
+2024-02-02 18:45:22: [MessageBroker-1] org.springframework.web.socket.config.WebSocketMessageBrokerStats [org.springframework.web.socket.config.WebSocketMessageBrokerStats.lambda$initLoggingTask$0:154] - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 0, completed tasks = 3]
+2024-02-02 19:15:22: [MessageBroker-3] org.springframework.web.socket.config.WebSocketMessageBrokerStats [org.springframework.web.socket.config.WebSocketMessageBrokerStats.lambda$initLoggingTask$0:154] - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 5, active threads = 1, queued tasks = 0, completed tasks = 4]
+2024-02-02 19:27:24: [SpringApplicationShutdownHook] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [org.springframework.core.log.CompositeLog.info:117] - Stopping...
+2024-02-02 19:27:24: [SpringApplicationShutdownHook] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [org.springframework.core.log.CompositeLog.info:117] - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@44241666]]
+2024-02-02 19:27:24: [SpringApplicationShutdownHook] org.springframework.messaging.simp.broker.SimpleBrokerMessageHandler [org.springframework.core.log.CompositeLog.info:117] - Stopped.
+2024-02-02 19:27:24: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsRevoked:343] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Revoke previously assigned partitions chat_key-0
+2024-02-02 19:27:24: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.springframework.kafka.listener.KafkaMessageListenerContainer [org.springframework.core.log.LogAccessor.info:292] - coffeechat: partitions revoked: [chat_key-0]
+2024-02-02 19:27:24: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.maybeLeaveGroup:1133] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Member consumer-coffeechat-1-78a740c8-1b42-4f2a-ac49-03e0e460331c sending LeaveGroup request to coordinator localhost:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+2024-02-02 19:27:24: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration:1025] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-02-02 19:27:24: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin:1072] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Request joining group due to: consumer pro-actively leaving the group
+2024-02-02 19:27:24: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.springframework.kafka.core.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer [org.apache.kafka.clients.consumer.KafkaConsumer.unsubscribe:1021] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Unsubscribed all topics or patterns and assigned partitions
+2024-02-02 19:27:24: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration:1025] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-02-02 19:27:24: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.clients.consumer.internals.ConsumerCoordinator [org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin:1072] - [Consumer clientId=consumer-coffeechat-1, groupId=coffeechat] Request joining group due to: consumer pro-actively leaving the group
+2024-02-02 19:27:24: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics [org.apache.kafka.common.metrics.Metrics.close:693] - Metrics scheduler closed
+2024-02-02 19:27:24: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics [org.apache.kafka.common.metrics.Metrics.close:697] - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-02-02 19:27:24: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.metrics.Metrics [org.apache.kafka.common.metrics.Metrics.close:703] - Metrics reporters closed
+2024-02-02 19:27:24: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.apache.kafka.common.utils.AppInfoParser [org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo:83] - App info kafka.consumer for consumer-coffeechat-1 unregistered
+2024-02-02 19:27:24: [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] org.springframework.kafka.listener.KafkaMessageListenerContainer [org.springframework.core.log.LogAccessor.info:292] - coffeechat: Consumer stopped
+2024-02-02 19:27:24: [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy:650] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-02 19:27:24: [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [com.zaxxer.hikari.HikariDataSource.close:350] - HikariPool-1 - Shutdown initiated...
+2024-02-02 19:27:24: [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [com.zaxxer.hikari.HikariDataSource.close:352] - HikariPool-1 - Shutdown completed.

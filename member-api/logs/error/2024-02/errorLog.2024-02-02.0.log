@@ -1,0 +1,1 @@
+2024-02-02 16:56:05: [http-nio-8501-exec-2] com.kernelsquare.core.aop.Logging [com.kernelsquare.core.aop.Logging.logException:38] - [29e82b61-5587-4001-95b2-d9445251c445] [Exception] AuthService.login(..) , exceptionName = BusinessException, exceptionMessage = null, args = [LoginRequest[email=duck@example.com, password=Test123s!]]

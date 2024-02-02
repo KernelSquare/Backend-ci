@@ -1,0 +1,73 @@
+2024-02-02 17:14:34: [http-nio-8501-exec-1] org.springframework.security.web.FilterChainProxy [org.springframework.security.web.FilterChainProxy.doFilterInternal:223] - Securing POST /api/v1/auth/login
+2024-02-02 17:14:34: [http-nio-8501-exec-1] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [org.springframework.security.web.authentication.AnonymousAuthenticationFilter.defaultWithAnonymous:119] - Set SecurityContextHolder to anonymous SecurityContext
+2024-02-02 17:14:34: [http-nio-8501-exec-1] org.springframework.security.web.FilterChainProxy [org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3:227] - Secured POST /api/v1/auth/login
+2024-02-02 17:14:34: [http-nio-8501-exec-1] org.hibernate.SQL [org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement:135] - 
+    select
+        m1_0.id,
+        m1_0.created_date,
+        m1_0.email,
+        m1_0.experience,
+        m1_0.image_url,
+        m1_0.introduction,
+        m1_0.level_id,
+        m1_0.modified_date,
+        m1_0.nickname,
+        m1_0.password 
+    from
+        member m1_0 
+    where
+        m1_0.email=?
+2024-02-02 17:14:34: [http-nio-8501-exec-1] org.hibernate.SQL [org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement:135] - 
+    select
+        l1_0.id,
+        l1_0.created_date,
+        l1_0.image_url,
+        l1_0.level_upper_limit,
+        l1_0.modified_date,
+        l1_0.name 
+    from
+        level l1_0 
+    where
+        l1_0.id=?
+2024-02-02 17:14:34: [http-nio-8501-exec-1] org.hibernate.SQL [org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement:135] - 
+    update
+        member 
+    set
+        experience=?,
+        modified_date=? 
+    where
+        id=?
+2024-02-02 17:14:34: [http-nio-8501-exec-1] org.hibernate.SQL [org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement:135] - 
+    select
+        a1_0.member_id,
+        a1_0.id,
+        a1_0.authority_id 
+    from
+        member_authority a1_0 
+    where
+        a1_0.member_id=?
+2024-02-02 17:14:34: [http-nio-8501-exec-1] org.hibernate.SQL [org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement:135] - 
+    select
+        a1_0.id,
+        a1_0.authority_type 
+    from
+        authority a1_0 
+    where
+        a1_0.id=?
+2024-02-02 17:14:34: [http-nio-8501-exec-1] org.hibernate.SQL [org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement:135] - 
+    select
+        a1_0.id,
+        a1_0.authority_type 
+    from
+        authority a1_0 
+    where
+        a1_0.id=?
+2024-02-02 17:14:34: [http-nio-8501-exec-1] org.hibernate.SQL [org.hibernate.engine.jdbc.spi.SqlStatementLogger.logStatement:135] - 
+    select
+        a1_0.id,
+        a1_0.authority_type 
+    from
+        authority a1_0 
+    where
+        a1_0.id=?
+2024-02-02 17:14:34: [http-nio-8501-exec-1] org.springframework.security.authentication.dao.DaoAuthenticationProvider [org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.createSuccessAuthentication:199] - Authenticated user

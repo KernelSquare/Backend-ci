@@ -10,6 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.context.annotation.Import;
 
+import java.time.LocalDateTime;
+import java.util.List;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DisplayName("커피챗 레포지토리 단위 테스트")
@@ -25,6 +28,7 @@ class CoffeeChatRepositoryTest {
         //given
         ChatRoom chatRoom = ChatRoom.builder()
             .roomKey("asdf")
+            .expirationTime(LocalDateTime.now().plusMinutes(30))
             .build();
 
         ChatRoom saveChatRoom = coffeeChatRepository.save(chatRoom);
@@ -36,5 +40,24 @@ class CoffeeChatRepositoryTest {
         //then
         assertThat(findChatRoom).isNotNull();
         assertThat(findChatRoom).isEqualTo(saveChatRoom);
+    }
+
+    @Test
+    @DisplayName("커피챗 findAllByActive 정상 작동 테스트")
+    void testFindAllByActive() {
+        //given
+        ChatRoom chatRoom = ChatRoom.builder()
+            .roomKey("asdf")
+            .expirationTime(LocalDateTime.now().plusMinutes(30))
+            .build();
+
+        ChatRoom saveChatRoom = coffeeChatRepository.save(chatRoom);
+
+        //when
+        List<ChatRoom> findChatRoomList = coffeeChatRepository.findAllByActive(false);
+
+        //then
+        assertThat(findChatRoomList).isNotNull();
+        assertThat(findChatRoomList.get(0)).isEqualTo(saveChatRoom);
     }
 }
